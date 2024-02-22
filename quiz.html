@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1 class="heading">Spill The Tea! Sign up right now.</h1>
+    <img class="health_image1" src="health_edu.jpg" alt="health_edu">
+    <img class="health_image2" src="health_edu2.jpg" alt="health_edu2">
+    <div class="formContents">
+        <form onsubmit="return validate()" action="#" align="left">
+            <label for="name"><i>Student's Name</i></label><br>
+            <input id="firstName" type="text"  placeholder="First" name="firstName">
+            <input id="lastName" type="text"  placeholder="Last" name="lastName"><br><br>
+            <label for="birthDate"><i>Student's Birth Date</i></label><br>
+            <input id="birthdate" type="date" required placeholder="MM/DD/YYYY" name="birthDate"><br><br>
+            <label for="grade"><i>Student's Grade</i></label><br>
+            <input id="grade" type="text" placeholder="5th grade" name="grade"><br><br>
+            <label id="checkbox" for="sessions"><i>Which sessions will your student attend?</i></label><br><br>
+            <input type="checkbox" name="sessions"> After School hours <br><br>
+            <input type="checkbox" name="sessions">Homeroom sessions <br><br>
+            <input type="checkbox" name="sessions">Within school hours <br><br>
+            <input type="checkbox" name="sessions"> Specialised one to one online sessions <br><br>
+            <label for="needs"><b>Please indicate any known allergies or special needs</b></label><br>
+            <input type="text" id="needs" name="needs"><br><br>
+            <label id="pName" for="parentName"><i>Parent/Guardian Name</i></label><br>
+            <input id="fPName" type="text"  placeholder="First">
+            <input id="lPName" type="text"  placeholder="Last"><br><br>
+            <label for="pNumber"><i>Parent/Guardian Phone Number</i></label><br>
+            <input id="pNumber" type="text"  placeholder="### ### ####"><br><br>
+            <label for="additionalPhNo"><i>Additional Phone Number</i></label><br>
+            <input id="aNumber" type="text"  placeholder="### ### ####"><br><br>
+            <label for="email" name="email"><i>Email</i></label><br>
+            <input id="email" type="email" ><br><br>
+            <button onsubmit="func()" class="submit">Submit</button>
+        </form>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

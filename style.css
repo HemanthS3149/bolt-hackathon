@@ -1,0 +1,121 @@
+
+
+.main-logo{
+    position : absolute;
+    
+    height: 400px;
+    width: 100%;
+
+    
+}
+
+.slogan{
+    position:absolute;
+    color:white;
+    top:300px;
+
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.content-homepage{
+    position:absolute;
+    top: 500px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+.divs-for-homepage{
+    position:absolute;
+    top:900px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    
+
+}
+
+.box1{
+    height:370px;
+    width:450px;
+    background-image: url(fitness1.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+.box2{
+    height:370px;
+    width:450px;
+    background-image: url(fitness3.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+.box3{
+    height:370px;
+    width:450px;
+    background-image: url(fitness2.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+
+.divs-for-homepage2{
+    position:absolute;
+    top:1400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    
+
+}
+.box4{
+    height:370px;
+    width:450px;
+    background-image: url(fitness4.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+.box5{
+    height:370px;
+    width:450px;
+    background-image: url(fitness5.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+.box6{
+    height:370px;
+    width:450px;
+    background-image: url(fitness6.jpg);
+    background-size: cover;
+    margin:60px;
+    text-align:center;
+    border: 5px solid black;
+}
+
+.footer-slogan{
+    position:absolute;
+    top:1900px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,93 @@
+body{
+    color:white;
+    text-align:center;
+    font-style:normal ;
+    background:black;
+}
+
+.heading{
+    font-family: 'Bebas Neue', cursive;
+}
+.health_image2{
+    height: 60vh; 
+    width: 60vh; 
+    position: absolute;
+    top: 50%;
+    right: 5%; 
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+
+}
+.health_image1{
+    height: 60vh;
+    width: 60vh;
+    position: absolute;
+    top: 130%; /* Adjust the top position based on your preference */
+    right: 5%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.formContents{
+    color:white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    font-size: 22px;
+}
+input[type=text]{
+    border-color:blue;
+}
+input[type=email]{
+    border-color: blueviolet;
+}
+input[type=number]{
+    border-color:blueviolet;
+}
+
+
+#firstName,
+#lastName,
+#fPName,
+#lPName {
+    width: 300px;
+    height: 30px; 
+}
+/**input elements**/
+#needs{
+    width:400px;
+    height:100px;
+}
+#grade{
+    width:400px;
+    height:25px;
+}
+#pName{
+    width:400px;
+    height:25px;
+}
+
+#pNumber{
+    width:400px;
+    height:25px;
+}
+#aNumber{
+    width:400px;
+    height:25px;
+}
+#email{
+    width:400px;
+    height:25px;
+}
+
+/**button**/
+.submit{
+    height:40px;
+    width:120px;
+    border-radius: 15px;
+    color:black;
+    background-color: burlywood;
+}

@@ -1,0 +1,41 @@
+.background {
+    background-image: url('bmi_image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: calc(100% - 16px); /* Adjusting for padding */
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

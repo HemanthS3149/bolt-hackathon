@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    text-align:center;
+    font-family:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    color:blanchedalmond;
+    margin-top:50px;
+    font-size: 70px;
+}
+.bitmoji_1{
+    margin-left:100px;
+    margin-top:100px;
+}
+.heading_problem{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 45px;
+}
+.problem{
+    border:2px solid white;
+    color:white;
+    margin-left:160px;
+    margin-right:160px;
+    font-weight:500;
+    font-size:18px;
+    margin-top:100px;
+    line-height: 2.5;
+    border-radius: 25px;
+}
+.mission{
+    border:2px solid white;
+    color:white;
+    font-weight:500;
+    margin-left:160px;
+    margin-right:160px;
+    margin-top:100px;
+    font-size:18px;
+    line-height: 2.5;
+    border-radius: 25px;
+}
+.heading_mission{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 40px;
+}
+.img_problem1{
+    width:250px;
+    height:250px;
+    border-radius:25px;
+    box-shadow: rgba(13,99,121,1);
+    margin-top:40px;
+    position:relative;
+    margin-left:190px;
+}
+
+.img_problem2{
+    width:250px;
+    height:250px;
+    border-radius:25px;
+    box-shadow: rgba(13,99,121,1);
+    position:relative;
+    margin-left:230px;
+    margin-top:40px;
+}
+
+.images{
+    gap:25px;
+}
+.img_mission1{
+    width:250px;
+    height:250px;
+    border-radius:25px;
+    box-shadow: rgba(13,99,121,1);
+    position:relative;
+    margin-left:190px;
+    margin-top:40px;
+}
+.img_mission2{
+    width:250px;
+    height:250px;
+    border-radius:25px;
+    box-shadow: rgba(13,99,121,1);
+    margin-left:190px;
+    position:relative;
+    margin-left:230px;
+    margin-top:40px;
+}
+.us{
+    border:2px solid white;
+    color:white;
+    font-weight:500;
+    margin-left:160px;
+    margin-right:160px;
+    margin-top:100px;
+    font-size:18px;
+    line-height: 2.5;
+    border-radius: 25px;
+    margin-bottom:70px;
+}
+.about_us{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 40px;
+}
+.hema_emoji{
+    margin-top:30px;
+    margin-left:100px;
+}
+.jay_emoji{
+    height:170px;
+    width:170px;
+    position:absolute;
+    margin-left:220px;
+    margin-top:40px;
+}
+.vani_emoji{
+    height:170px;
+    width:170px;
+    position:absolute;
+    margin-left:620px;
+    margin-top:40px;
+}
